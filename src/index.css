@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-header {
+  background-color: #333; 
+  color: white !important;
+}
+
+.table-row:nth-of-type(odd) {
+  background-color: #f5f5f5; 
+}
+
+.container {
+  max-width: 1440px;
+  margin:auto;
+  padding: 0px 20px;
+}
+
+.btn-add-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 35px;
+}
+
+.form-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
